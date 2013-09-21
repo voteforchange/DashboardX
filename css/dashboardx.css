@@ -46,6 +46,6 @@ body {
 
 .icon-group, .icon-phone, .icon-envelope, .icon-calendar	{
 	color: black;
-    text-shadow: 2px 2px 2px green;
+    text-shadow: 2px 2px 2px black;
 	font-size: 50%;
 }
