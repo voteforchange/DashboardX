@@ -2,13 +2,12 @@
 <html lang="en">
   <head>
 	<meta charset="utf-8">
-    <title>Panel</title>
+    <title>Activity Feeds</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
     <link href="../../css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link href="../panels/css/panels.css" rel="stylesheet" media="screen">
     <link href="css/feeds.css" rel="stylesheet" media="screen">
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -17,18 +16,33 @@
     <![endif]-->
   </head>
   <body>
+	<div class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="../" class="navbar-brand"><img src="../../images/logo.png">VoteForChange</a>
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+          <form class="navbar-form navbar-left">
+             <input type="text" class="form-control col-lg-8" placeholder="Search">
+          </form>
+          <ul class="nav navbar-nav navbar-right">
+             <li class="active"><a href="#">X For MP</a></li>
+             <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">username <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                   <li><a href="#">Sign Out</a></li>
+                </ul>
+             </li>
+           </ul>
+        </div>
+      </div>
+    </div>
     <div class="container">
-		<div class="header">
-			<ul class="nav nav-pills pull-right">
-				<li class="dropdown">
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown">haricm <b class="caret"></b></a>
-					<ul class="dropdown-menu">
-						<li><a href="#">Signout</a></li>
-					</ul>
-				</li>
-			</ul>
-			<h3 class="text-muted branding">Mr.X For MP</h3>
-       </div>
 	   <div class="row first">
 		   <div class="col-md-4 feeds">
 				<div class="panel panel-default">
@@ -39,15 +53,15 @@
 						<div class="activity-feeds">
 							<ul>
 								<li>
-									<img src="../../images/no-profile-resized.png" alt="Hari">
-									Amarnath made a call to 9995....43
+									<img src="../../images/profilepics/amarnath.jpg" alt="Amarnath">
+									Amarnath called 9995....43
 								</li>
 								<li>
-									<img src="../../images/no-profile-resized.png" alt="Hari">
+									<img src="../../images/profilepics/hari.jpg" alt="Hari">
 									Hari updated his profile
 								</li>
 								<li>
-									<img src="../../images/no-profile-resized.png" alt="Hari">
+									<img src="../../images/profilepics/no-profile-resized.png" alt="Sarath">
 									Sarath sent a group SMS
 								</li>
 							</ul>

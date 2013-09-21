@@ -1,18 +1,51 @@
-.header {
-  margin-top: 0;
-  margin-bottom: 0;
-  line-height: 40px;
-  padding-bottom: 19px;
-  padding-left: 15px;
-  padding-right: 15px;
-  border-bottom: 1px solid #e5e5e5;
-}
-
 body {
-  padding-top: 20px;
+  padding-top: 65px;
   padding-bottom: 20px;
 }
 
 .first {
 	padding-top : 20px;
+}
+
+.member-list ul {
+	list-style-type:none;
+}
+
+.member-list ul li {
+	display: inline ;
+	padding: 0px 3px 0px 3px ;
+}
+
+.number	{
+	font-size: 50px;
+}
+
+.volunteers ul ,.calls ul,.sms  ul{
+	list-style-type:none;
+}
+.volunteers ul li ,.calls ul li,.sms ul li  {
+	padding: 0px 3px 0px 3px ;
+	text-align: center;
+}
+
+.activity-feeds ul {
+	list-style-type:none;
+}
+.activity-feeds ul li {
+	padding: 3px 3px 3px 3px ;
+}
+
+.groupicon, .envelopeicon, .phoneicon, .calendaricon	{
+	height:200px;
+	width:200px;
+	text-align: centerline;
+	font-size: 200px;
+	line-height:150px;
+	text-align:center;
+}
+
+.icon-group, .icon-phone, .icon-envelope, .icon-calendar	{
+	color: black;
+    text-shadow: 2px 2px 2px green;
+	font-size: 50%;
 }

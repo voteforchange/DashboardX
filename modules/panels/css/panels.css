@@ -1,21 +1,5 @@
-
-.header {
-  margin-top: 0;
-  margin-bottom: 0;
-  line-height: 40px;
-  padding-bottom: 19px;
-  padding-left: 15px;
-  padding-right: 15px;
-  border-bottom: 1px solid #e5e5e5;
-}
-
-body {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-.first {
-	padding-top : 20px;
+body { 
+	padding-top: 65px; 
 }
 
 
