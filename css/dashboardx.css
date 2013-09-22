@@ -32,7 +32,16 @@ body {
 	list-style-type:none;
 }
 .activity-feeds ul li {
-	padding: 3px 3px 3px 3px ;
+	padding: 5px 0px 5px 0px ;
+	border-bottom:1px solid #E9E0DB;
+}
+.activity-feeds ul li p {
+	display: inline;
+	vertical-align: top;
+	padding-left:5px;
+}
+.activity-feeds ul li p strong a  {
+	vertical-align: top;
 }
 
 .groupicon, .envelopeicon, .phoneicon, .calendaricon	{
