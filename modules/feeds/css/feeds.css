@@ -1,16 +1,16 @@
-ul {
+.activity-feeds ul {
 	list-style-type:none;
 }
-ul li {
+.activity-feeds ul li {
 	padding: 5px 0px 5px 0px ;
 	border-bottom:1px solid #E9E0DB;
 }
-ul li p {
+.activity-feeds ul li p {
     padding-left:5px;
 	display: inline;
 	vertical-align: top;
 }
-ul li p strong a {
+.activity-feeds ul li p strong a {
 	vertical-align: top;
 }
 

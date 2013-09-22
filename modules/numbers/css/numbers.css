@@ -8,3 +8,6 @@ ul li {
 .number	{
 	font-size: 50px;
 }
+.number:hover	{
+    color: red;
+}

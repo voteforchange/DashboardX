@@ -1,6 +1,5 @@
 .groupicon 	{
 	height:200px;
-	width:200px;
 	text-align: centerline;
 	font-size: 200px;
 	line-height:150px;
@@ -11,4 +10,10 @@
 	color: black;
     text-shadow: 2px 2px 2px black;
 	font-size: 50%;
+}
+
+.icon-group:hover	{
+	color: red;
+    text-shadow: 2px 2px 2px black;
+	font-size: 60%;
 }

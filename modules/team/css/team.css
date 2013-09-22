@@ -1,7 +1,7 @@
-ul {
+.member-list ul {
 	list-style-type:none;
 }
-ul li {
+.member-list ul li {
 	display: inline ;
 	padding: 0px 3px 0px 3px ;
 }
