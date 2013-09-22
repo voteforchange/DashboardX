@@ -45,14 +45,17 @@ body {
 }
 
 .groupicon, .envelopeicon, .phoneicon, .calendaricon	{
-	height:200px;
-	width:200px;
 	text-align: centerline;
 	font-size: 200px;
-	line-height:150px;
+	line-height:100px;
 	text-align:center;
 }
-
+.groupicon, .envelopeicon, .phoneicon	{
+	height:150px;
+}
+ .calendaricon	{
+	height:200px;
+}
 .icon-group, .icon-phone, .icon-envelope, .icon-calendar	{
 	color: black;
     text-shadow: 2px 2px 2px black;
