@@ -1,0 +1,70 @@
+body {
+  padding-top: 65px;
+  padding-bottom: 20px;
+}
+
+.first {
+	padding-top : 20px;
+}
+
+.member-list ul {
+	list-style-type:none;
+}
+
+.member-list ul li {
+	display: inline ;
+	padding: 0px 3px 0px 3px ;
+}
+
+.number	{
+	font-size: 50px;
+}
+.number:hover	{
+    color: red;
+}
+
+.volunteers ul ,.calls ul,.sms  ul{
+	list-style-type:none;
+}
+.volunteers ul li ,.calls ul li,.sms ul li  {
+	padding: 0px 3px 0px 3px ;
+	text-align: center;
+}
+
+.activity-feeds ul {
+	list-style-type:none;
+}
+.activity-feeds ul li {
+	padding: 5px 0px 5px 0px ;
+	border-bottom:1px solid #E9E0DB;
+}
+.activity-feeds ul li p {
+	display: inline;
+	vertical-align: top;
+	padding-left:5px;
+}
+.activity-feeds ul li p strong a  {
+	vertical-align: top;
+}
+
+.groupicon, .envelopeicon, .phoneicon, .calendaricon	{
+	text-align: centerline;
+	font-size: 200px;
+	line-height:100px;
+	text-align:center;
+}
+.groupicon, .envelopeicon, .phoneicon	{
+	height:150px;
+}
+ .calendaricon	{
+	height:200px;
+}
+.icon-group, .icon-phone, .icon-envelope, .icon-calendar	{
+	color: black;
+    text-shadow: 2px 2px 2px black;
+	font-size: 50%;
+}
+.icon-group:hover, .icon-phone:hover, .icon-envelope:hover, .icon-calendar:hover	{
+	color: red;
+	font-size: 60%;
+}

@@ -1,0 +1,172 @@
+!!! 5
+html(lang='en')
+  head
+    title Panels
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    // Bootstrap
+    link(href='stylesheets/bootstrap.min.css', rel='stylesheet', media='screen')
+    link(href='stylesheets/dashboardx.css', rel='stylesheet', media='screen')
+    link(href='stylesheets/font-awesome.min.css', rel='stylesheet', media='screen')
+    // HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries
+    //if lt IE 9
+      script(src='../../assets/js/html5shiv.js')
+      script(src='../../assets/js/respond.min.js')
+  body
+    .navbar.navbar-default.navbar-fixed-top
+      .container
+        .navbar-header
+          a.navbar-brand(href='../')
+            img(src='images/logo.png')
+            | VoteForChange
+          button.navbar-toggle(type='button', data-toggle='collapse', data-target='#navbar-main')
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+        #navbar-main.navbar-collapse.collapse
+          form.navbar-form.navbar-left
+            input.form-control.col-lg-8(type='text', placeholder='Search')
+          ul.nav.navbar-nav.navbar-right
+            li.active
+              a(href='#') X For MP
+            li.dropdown
+              a.dropdown-toggle(href='#', data-toggle='dropdown')
+                | username
+                b.caret
+              ul.dropdown-menu
+                li
+                  a(href='#') Profile
+                li
+                  a(href='#') Sign Out
+    .container
+      .row.first
+        .col-md-4.feeds
+          .panel.panel-default
+            .panel-heading
+              h3.panel-title Latest Activity
+            .panel-body(margin-left='0px')
+              .activity-feeds
+                ul
+                  li
+                    img(src='images/profilepics/amarnath.jpg', alt='Amarnath')
+                    p
+                      strong
+                        a(href='#') Amarnath
+                      | called  9895&period;&period;&period;&period;11
+                  li
+                    img(src='images/profilepics/hari.jpg', alt='Hari')
+                    p
+                      strong
+                        a(href='#') Hari
+                      | updated his bio
+                  li
+                    img(src='images/profilepics/no-profile-resized.png', alt='Sarath')
+                    p
+                      strong
+                        a(href='#') Sarath
+                      | sent a group SMS
+                  li
+                    img(src='images/profilepics/amarnath.jpg', alt='Amarnath')
+                    p
+                      strong
+                        a(href='#') Amarnath
+                      | called 9995&period;&period;&period;&period;43
+                  li
+                    img(src='images/profilepics/hari.jpg', alt='Hari')
+                    p
+                      strong
+                        a(href='#') Hari
+                      | updated his profile pic
+                  li
+                    img(src='images/profilepics/no-profile-resized.png', alt='Sarath')
+                    p
+                      strong
+                        a(href='#') Sarath
+                      | joined voteforchange
+        .col-md-4.teamandmessages
+          .team
+            .panel.panel-default
+              .panel-heading
+                h3.panel-title Team
+              .panel-body
+                .member-list
+                  ul
+                    li
+                      img(src='images/profilepics/hari.jpg', alt='Hari')
+                    li
+                      img(src='images/profilepics/amarnath.jpg', alt='Amarnath')
+                    li
+                      img(src='images/profilepics/no-profile-resized.png', alt='Hari')
+                    li
+                      img(src='images/profilepics/no-profile-resized.png', alt='Hari')
+                    li
+                      img(src='images/profilepics/no-profile-resized.png', alt='Hari')
+                    li
+                      img(src='images/profilepics/no-profile-resized.png', alt='Hari')
+                    li
+                      img(src='images/profilepics/no-profile-resized.png', alt='Hari')
+                    li
+                      img(src='images/profilepics/no-profile-resized.png', alt='Hari')
+                    li
+                      img(src='images/profilepics/no-profile-resized.png', alt='Hari')
+                    li
+                      img(src='images/profilepics/no-profile-resized.png', alt='Hari')
+                    li
+                      img(src='images/profilepics/no-profile-resized.png', alt='Hari')
+                    li
+                      img(src='images/profilepics/no-profile-resized.png', alt='Hari')
+          .messages
+            .panel.panel-default
+              .panel-heading
+                h3.panel-title Messages
+              .panel-body
+                .envelopeicon
+                  i.icon-envelope.pull-center
+        .col-md-4.eventsandgroups
+          .events
+            .panel.panel-default
+              .panel-heading
+                h3.panel-title Events
+              .panel-body
+                .calendaricon
+                  i.icon-calendar.pull-center
+          .groups
+            .panel.panel-default
+              .panel-heading
+                h3.panel-title Groups
+              .panel-body
+                .groupicon
+                  i.icon-group.pull-center
+      .row.second
+        .col-md-4.callorsms
+          .panel.panel-default
+            .panel-heading
+              h3.panel-title Make Call&sol;SMS
+            .panel-body
+              .phoneicon
+                i.icon-phone.pull-center
+        .col-md-8.mubers
+          .panel.panel-default
+            .panel-heading
+              h3.panel-title Numbers
+            .panel-body
+              .row
+                .col-md-4.volunteers
+                  ul
+                    li.number 147
+                    li
+                      strong Volunteers
+                .col-md-4.calls
+                  ul
+                    li.number 1384
+                    li
+                      strong Calls
+                .col-md-4.sms
+                  ul
+                    li.number 6031
+                    li
+                      strong SMS
+    // jQuery (necessary for Bootstrap's JavaScript plugins)
+    script(src='http://code.jquery.com/jquery.js')
+    // Include all compiled plugins (below), or include individual files as needed
+    script(src='javascripts/bootstrap.min.js')
